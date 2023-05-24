@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data4",
+				"name": "Copy data3",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -34,11 +34,7 @@
 							"fileExtension": ""
 						}
 					},
-					"enableStaging": false,
-					"translator": {
-						"value": "@pipeline().parameters.jsontemplate",
-						"type": "Expression"
-					}
+					"enableStaging": false
 				},
 				"inputs": [
 					{
@@ -56,14 +52,15 @@
 		],
 		"parameters": {
 			"jsontemplate": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "abc"
 			}
 		},
 		"folder": {
 			"name": "POC1"
 		},
 		"annotations": [],
-		"lastPublishTime": "2023-04-26T12:07:53Z"
+		"lastPublishTime": "2023-05-15T11:34:41Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }
