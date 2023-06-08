@@ -5,6 +5,10 @@
 			"gbpr1": {
 				"type": "string",
 				"value": "devvalue"
+			},
+			"gbpr2": {
+				"type": "string",
+				"value": "developmentvalue"
 			}
 		}
 	},
