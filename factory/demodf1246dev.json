@@ -1,5 +1,13 @@
 {
 	"name": "demodf1246dev",
+	"properties": {
+		"globalParameters": {
+			"gbpr1": {
+				"type": "string",
+				"value": "devvalue"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
